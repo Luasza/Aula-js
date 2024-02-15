@@ -1,14 +1,9 @@
-const nome = 'Luana'
-const sobrenome = 'Souza'
-const anoAtual = 2024
-const idade = 29
+let nome = prompt('Digite seu nome')
+alert('Bem-vindo ' + nome + ', vamos somar 2 números')
 
+let num1 = parseInt(prompt('Digite o primeiro número'))
+let num2 = parseInt(prompt('Digite o segundo número'))
 
-console.log(`${nome} ${sobrenome}`)
-console.log(anoAtual - idade)
+let valor = num1 + num2
 
-
-
-let idadeInserida = prompt ('Insira a sua idade')
-
-alert (' A idade inserida foi: ' + idadeInserida)
+alert('O valor da soma é = ' + valor)
